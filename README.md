@@ -1,62 +1,77 @@
 # Vitrine Cogna - Frontend
 
-Este é o frontend da aplicação Vitrine Cogna, construído com Next.js.
+Este repositório contém o código-fonte do frontend da aplicação Vitrine Cogna, desenvolvida com Next.js. O objetivo é criar uma vitrine de produtos moderna e responsiva.
 
-## Requisitos
+## Requisitos do Sistema
 
-- Node.js 18 ou superior
-- Backend rodando na porta 3001
+Certifique-se de ter os seguintes softwares instalados em seu ambiente de desenvolvimento:
 
-## Instalação
+- Node.js (versão 18 ou superior)
+- Backend da aplicação rodando na porta `3001`
 
-1. Instale as dependências:
+## Instalação e Execução
 
-```bash
-npm install
-# ou
-yarn install
-```
+Siga os passos abaixo para configurar e executar o projeto localmente:
 
-2. Inicie o servidor de desenvolvimento:
+1.  **Clone o repositório** (se ainda não o fez):
 
-```bash
-npm run dev
-# ou
-yarn dev
-```
+    ```bash
+    git clone <URL_DO_REPOSITORIO>
+    cd frontend
+    ```
 
-3. Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
+2.  **Instale as dependências** do projeto:
+
+    ```bash
+    npm install
+    # ou se preferir Yarn
+    yarn install
+    ```
+
+3.  **Inicie o servidor de desenvolvimento**:
+
+    ```bash
+    npm run dev
+    # ou se preferir Yarn
+    yarn dev
+    ```
+
+4.  Abra seu navegador e acesse [http://localhost:3000](http://localhost.com:3000) para visualizar a aplicação.
 
 ## Estrutura do Projeto
 
-- `/src/app`: Páginas da aplicação
-- `/src/components`: Componentes reutilizáveis
-- `/public`: Arquivos estáticos
+O projeto segue uma estrutura organizada para facilitar o desenvolvimento e a manutenção:
 
-## Funcionalidades
+- `/src/app`: Contém as páginas principais da aplicação e a lógica de roteamento.
+- `/src/components`: Armazena componentes React reutilizáveis em toda a aplicação.
+- `/public`: Destinado a arquivos estáticos como imagens e ícones.
 
-- Página inicial com listagem de produtos (SSR)
-- Página de detalhes do produto (SSG)
-- Layout responsivo
-- SEO otimizado com meta tags
+## Funcionalidades Principais
+
+- **Listagem de Produtos**: Página inicial com exibição de produtos, renderizada via Server-Side Rendering (SSR) para melhor performance e SEO.
+- **Detalhes do Produto**: Páginas individuais de produtos, geradas via Static Site Generation (SSG) para carregamento rápido.
+- **Layout Responsivo**: Design adaptável a diferentes tamanhos de tela (desktops, tablets e celulares).
+- **Otimização para SEO**: Configuração de meta tags para melhorar a visibilidade nos motores de busca.
 
 ## Tecnologias Utilizadas
 
-- Next.js 14
-- Tailwind CSS
-- ESLint
+As principais tecnologias e bibliotecas empregadas neste projeto incluem:
 
-## Learn More
+- [Next.js 14](https://nextjs.org/): Framework React para aplicações web de alto desempenho.
+- [Tailwind CSS](https://tailwindcss.com/): Framework CSS utilitário para design rápido e responsivo.
+- [ESLint](https://eslint.org/): Ferramenta para identificar e reportar padrões problemáticos encontrados no código JavaScript/TypeScript.
 
-To learn more about Next.js, take a look at the following resources:
+## Saiba Mais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para aprofundar seus conhecimentos sobre Next.js, consulte os seguintes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Documentação do Next.js](https://nextjs.org/docs) - Aprenda sobre os recursos e a API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - Um tutorial interativo sobre Next.js.
 
-## Deploy on Vercel
+Você também pode explorar o [repositório Next.js no GitHub](https://github.com/vercel/next.js) para feedback e contribuições.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Implantação na Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A maneira mais fácil de implantar sua aplicação Next.js é utilizando a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), criada pelos desenvolvedores do Next.js.
+
+Consulte a [documentação de implantação do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
