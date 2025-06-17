@@ -4,10 +4,10 @@ Este repositório contém o código-fonte do frontend da aplicação Vitrine Cog
 
 ## Requisitos do Sistema
 
-Certifique-se de ter os seguintes softwares instalados em seu ambiente de desenvolvimento:
+Certifique-se de ter os seguintes softwares e configurações em seu ambiente de desenvolvimento:
 
 - Node.js (versão 18 ou superior)
-- Backend da aplicação rodando na porta `3001`
+- Backend da aplicação (API) rodando na porta `3001`. Você pode encontrar o repositório da API aqui: [https://github.com/alsiqueira/cogna-api](https://github.com/alsiqueira/cogna-api). **É crucial que o backend esteja ativo antes de executar `npm run build` ou `yarn build` para garantir a correta geração das páginas estáticas e o funcionamento da aplicação.**
 
 ## Instalação e Execução
 
