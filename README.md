@@ -75,3 +75,13 @@ Você também pode explorar o [repositório Next.js no GitHub](https://github.co
 A maneira mais fácil de implantar sua aplicação Next.js é utilizando a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), criada pelos desenvolvedores do Next.js.
 
 Consulte a [documentação de implantação do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
+
+## Configuração de Variáveis de Ambiente
+
+Para o correto funcionamento do projeto em ambiente de desenvolvimento, é necessário criar um arquivo `.env.local` na raiz do projeto com as seguintes variáveis de ambiente:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:3001
+```
+
+Certifique-se de que a URL do backend (API) esteja correta e que o servidor da API esteja rodando na porta especificada (`3001` por padrão).
