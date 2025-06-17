@@ -78,7 +78,7 @@ Consulte a [documentação de implantação do Next.js](https://nextjs.org/docs/
 
 ## Configuração de Variáveis de Ambiente
 
-Para o correto funcionamento do projeto em ambiente de desenvolvimento, é necessário criar um arquivo `.env.local` na raiz do projeto com as seguintes variáveis de ambiente:
+Para o correto funcionamento do projeto em ambiente de desenvolvimento, é necessário criar um arquivo `.env.development` na raiz do projeto com as seguintes variáveis de ambiente:
 
 ```
 NEXT_PUBLIC_API_URL=http://localhost:3001
