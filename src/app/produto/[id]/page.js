@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 async function getProduct(id) {
-  const res = await fetch(`http://localhost:3001/produtos/${id}`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/produtos/${id}`, {
     cache: 'no-store',
     headers: {
       'Cache-Control': 'no-cache, no-store, must-revalidate',
